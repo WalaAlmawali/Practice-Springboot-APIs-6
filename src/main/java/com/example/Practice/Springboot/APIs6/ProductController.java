@@ -23,7 +23,7 @@ public class ProductController {
         Product product = products.get(id);
 
         if(product == null){
-            System.out.println("Product not found");
+          return "Product not found";
         }
 
         int oldStock = product.getStockQuantity();
