@@ -4,14 +4,14 @@ public class UpdateEmailDemo {
 
     public static void main(String[] args) {
 
-        String currentEmail = "wala@gmail.com";
-        String newEmail = "walaAlmawli.gmail.com";
+        String currentEmail = "ahmed@example.com ";
+        String newEmail = "ahmed@example.com ";
         boolean updateStatus = false;
 
         System.out.println("Original email : "+ currentEmail);
 
         if(currentEmail.equalsIgnoreCase(newEmail)){
-            System.out.println("No update required");
+            System.out.println("No update required. Email address is already current");
         }else{
             currentEmail = newEmail;
             updateStatus = true;
